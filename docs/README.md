@@ -13,7 +13,7 @@ OpenGraphProperties og = new OpenGraphProperties {
 
 Then in your MVC view (or somewhere similar), you can simply write:
 
-```
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ Then in your MVC view (or somewhere similar), you can simply write:
 
 This will generate the following HTML:
 
-```
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
