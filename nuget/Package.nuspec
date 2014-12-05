@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Skybrud.OpenGraph</id>
+    <title>Skybrud.OpenGraph</title>
+    <version>1.0.0</version>
+    <authors>Anders Bjerner</authors>
+    <owners>Skybrud.dk, Anders Bjerner</owners>
+    <licenseUrl>https://github.com/abjerner/Skybrud.OpenGraph/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/abjerner/Skybrud.OpenGraph/</projectUrl>
+    <iconUrl>http://www.skybrud.dk/img/5431sk/icon/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Small library for generating Open Graph meta tags.</description>
+    <tags>Facebook, Open Graph, Skybrud, Web, MVC</tags>
+  </metadata>
+  <files>
+    <file src="..\src\Skybrud.OpenGraph\bin\Release\*.dll" target="lib" />
+  </files>
+</package>
