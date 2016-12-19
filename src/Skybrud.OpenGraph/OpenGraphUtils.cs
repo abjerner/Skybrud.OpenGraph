@@ -4,6 +4,9 @@ using System.Reflection;
 
 namespace Skybrud.OpenGraph {
     
+    /// <summary>
+    /// Various utility methods used throughout the package.
+    /// </summary>
     public static class OpenGraphUtils {
 
         /// <summary>
@@ -19,7 +22,7 @@ namespace Skybrud.OpenGraph {
         /// <returns></returns>
         public static string GetFileVersion() {
             Assembly assembly = typeof(OpenGraphUtils).Assembly;
-            return FileVersionInfo.GetVersionInfo(assembly.Location).FileVersion;
+            return assembly.Location == null ? null : FileVersionInfo.GetVersionInfo(assembly.Location).FileVersion;
         }
 
         /// <summary>

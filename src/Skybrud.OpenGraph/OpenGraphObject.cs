@@ -6,8 +6,15 @@ using Skybrud.OpenGraph.Attributes;
 
 namespace Skybrud.OpenGraph {
 
+    /// <summary>
+    /// Class representing a basic Open Graph object.
+    /// </summary>
     public class OpenGraphObject : IHtmlString {
 
+        /// <summary>
+        /// Returns a string representation of the object.
+        /// </summary>
+        /// <returns>A string that represents the object.</returns>
         public override string ToString() {
 
             // Get an array of all public member properties
@@ -40,6 +47,10 @@ namespace Skybrud.OpenGraph {
 
         }
 
+        /// <summary>
+        /// Returns a HTML representation of the object.
+        /// </summary>
+        /// <returns>A string with a HTML value that represents the object.</returns>
         public virtual string ToHtmlString() {
             return ToString();
         }
